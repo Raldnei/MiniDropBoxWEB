@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerenciador de Arquivos - MinIO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📁 Gerenciador de Arquivos</h1>
+      <div class="menu">
+        <button id="btnEnviar">Enviar</button>
+        <button id="btnBaixar">Baixar</button>
+      </div>
+    </header>
+
+    <!-- Seção de envio -->
+    <section id="secaoEnviar" class="card">
+      <h2 style="text-align: center">Enviar Arquivo</h2>
+      <form id="uploadForm">
+        <input type="file" id="fileInput" required />
+        <textarea id="descricaoInput" placeholder="Digite uma descrição..." rows="3"></textarea>
+        <button id="botaoEnviar" type="submit">Enviar</button>
+      </form>
+      <p id="uploadStatus" class="status"></p>
+    </section>
+
+    <!-- Seção de lista -->
+    <section id="secaoBaixar" class="card" style="display: none;">
+      <h2 style="text-align: center">Arquivos no Bucket</h2>
+      <div id="listStatus" class="status"></div>
+      <div id="filesList" class="files-list"></div>
+    </section>
+  </div>
+
+  <!-- Modal -->
+  <div id="imageModal" class="modal">
+    <div class="modal-conteudo">
+      <img id="modalImg" class="imagem-grande" alt="Imagem ampliada" />
+      <div class="info-lateral">
+        <h3 id="tituloImg"></h3>
+        <p id="descricaoImg"></p>
+        <button id="botaoDownload">⬇️ Baixar</button>
+      </div>
+    </div>
+    <span class="fechar">&times;</span>
+  </div>
+
+  <footer>
+   
+<p style="text-align:center; font-family: Arial, sans-serif; font-size:16px; margin:20px 0;">
+  Desenvolvido com 
+  <span style="color:red; font-weight:bold;">Amor ❤️</span> & 
+  <span style="color:darkred; font-weight:bold;">Raiva 😡</span>, 
+  usando FastAPI + MinIO por
+  <span style="color:#0ff; font-weight:bold;">Raldnei Miguel</span> & 
+  <span style="color:#39ff14; font-weight:bold;">Messias Accacy</span>
+</p>
+
+
+
+
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
