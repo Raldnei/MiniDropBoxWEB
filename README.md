@@ -16,7 +16,7 @@
 ## 📂 Estrutura do Projeto
 
 ```
-📁 MiniDropBox/
+📁 MiniDropBoxWEB/
 ├── docker-compose.yml
 ├── app.py                 # FastAPI + MinIO API
 ├── web/                    # Front-end
