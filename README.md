@@ -24,6 +24,7 @@
 │   ├── style.css
 │   └── script.js
 ├── nginx.conf
+├── requirements.txt
 └── data/                   # Volumes Docker para persistência
 ```
 ---
