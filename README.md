@@ -36,7 +36,7 @@
 - Docker Desktop  
 - Git (opcional)  
 - Navegador moderno para acessar o front-end
-- LiveServer(para rodar localmente)
+- LiveServer ou Live Preview(Sugestão para vizualização rápida)
 
 ---
 
@@ -79,7 +79,7 @@ Ao acessar basta informas o seguinte usuário e senha.
 
 ## 🌐 Acessando o Sistema
 
-- Front-end: http://127.0.0.1:5500/web/index.html (ou conforme porta do Live Server)
+- Front-end: http://127.0.0.1:5500/web/index.html (ou conforme porta do Live Server se utilizado)
 - API FastAPI: http://127.0.0.1:8000
 ---
 
